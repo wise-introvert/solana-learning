@@ -1,0 +1,22 @@
+{
+  "name": "solana-learning",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+      "dev": "nodemon .",
+      "run": "yarn build && node dist/index.js",
+      "build": "tsc"
+  },
+  "dependencies": {
+    "@solana-developers/helpers": "^2.2.0",
+    "@solana/web3.js": "^1.91.1",
+    "esrun": "^3.2.26",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
